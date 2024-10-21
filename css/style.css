@@ -1,0 +1,31 @@
+* {
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 40px;
+    padding: 20px;
+    columns: 1;
+    scale: 1;
+}
+
+li {
+    color: red;
+}
+
+h1 {
+    color: brown;
+}
+
+a {
+    color: blue;
+}
+
+p {
+    color: white;
+}
+
+footer {
+    color: red;
+}
