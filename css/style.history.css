@@ -22,6 +22,11 @@ a {
     color: blue;
 }
 
+img {
+    width: 350px;
+    height: 350px;
+}
+
 footer {
     color: red;
 }

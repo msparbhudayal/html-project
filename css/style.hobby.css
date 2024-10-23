@@ -1,6 +1,19 @@
+:root {
+    --background-color: lightskyblue;
+    --text-color: white;
+    --header-color: whitesmoke;
+    --list-item-color: red;
+    --link-color: blue;
+    --table-header-bg: lightskyblue;
+    --table-header-color: white;
+    --table-row-bg: white;
+    --footer-color: red;
+    --table-border-color: black;
+}
+
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightskyblue;
+    background-color: var(--background-color);
 }
 
 body {
@@ -10,26 +23,48 @@ body {
     scale: 1;
 }
 
+img {
+    width: 500px;
+    height: 250px;
+}
+
 h1 {
-    color: whitesmoke;
+    color: var(--header-color);
 }
 
 li {
-    color: red;
+    color: var(--list-item-color);
 }
 
 a {
-    color: blue;
+    color: var(--link-color);
 }
 
 p {
-    color: white;
+    text-align: left;
+    color: var(--text-color);
 }
 
-tr {
-    color: blue;
+table {
+    width: 50%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid var(--table-border-color);
+}
+
+th {
+    background-color: var(--table-header-bg);
+    color: var(--table-header-color);
+}
+
+tr:nth-child(even) {
+    background-color: var(--table-row-bg);
 }
 
 footer {
-    color: red;
+    color: var(--footer-color);
 }
